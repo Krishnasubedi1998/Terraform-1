@@ -2,9 +2,8 @@ provider "aws" {
   region = "us-east-1"
 }
 
-resource "aws_security_group" "allow_tls" {
-  name        = "allow_tls"
-  description = "Allow TLS inbound traffic"
+resource "aws_security_group" "allow_all" {
+  name        = "allow_all"
   ingress {
     # TLS (change to whatever ports you need)
     from_port   = 0
