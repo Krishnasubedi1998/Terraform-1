@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "61ydbd81"
+    bucket = "anushasharmaakaradhika.gq"
     key    = "terraform/dev"
     region = "us-east-1"
   }
